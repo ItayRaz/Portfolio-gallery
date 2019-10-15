@@ -39,6 +39,7 @@ function renderModal(projId) {
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
-                    Close Project</button>`;
+                    Close Project</button>
+                    <a href="${proj.url}" target="_blank" class="btn btn-primary" >Check The Project</a>`
     elModal.innerHTML = modalHTML;
 }

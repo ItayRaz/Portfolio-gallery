@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main-style.css">
+    <title>Blogin</title>
+</head>
+
+<body>
+    <div class="screen" onclick="toggleMenu()"></div>
+    <div class="modal flex space-around">
+        <h2>Join us to get access to the latest stories!</h2>
+        <input type="email" placeholder="Enter you email">
+        <div class="felx">
+            <button>Submit</button>
+            <button onclick="toggleModal()">Close</button>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container flex space-between align-center">
+            <div class="header-logo">Blogin<span>.</span></div>
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+            <ul class="main-nav flex align-center">
+                <li class="flex align-center active">Journal</li>
+                <li class="flex align-center"> About</li>
+                <li class="flex align-center"> Work</li>
+                <li class="flex align-center"> Contact</li>
+            </ul>
+        </div>
+    </header>
+    <main class="card-container container">
+        <section class="card flex">
+            <img src="./img/001.jpg" alt="">
+            <div class="card-text flex space-between">
+                <div>
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores saepe est beatae, rerum maiores
+                        ipsam
+                        doloremque odio, ullam possimus, placeat adipisci iusto. Explicabo porro, voluptatibus
+                        accusantium
+                        laborum blanditiis ea dolorem. </p>
+                </div>
+                <button onclick="toggleModal()">Continue Reading</button>
+            </div>
+        </section>
+        <section class="card flex">
+            <img src="./img/002.png" alt="">
+            <div class="card-text flex space-between">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores saepe est beatae, rerum maiores
+                    ipsam
+                    doloremque odio, ullam possimus, placeat adipisci iusto. Explicabo porro, voluptatibus accusantium
+                    laborum blanditiis ea dolorem. </p>
+                <button onclick="toggleModal()">Continue Reading</button>
+            </div>
+        </section>
+        <section class="card flex">
+            <img src="./img/003.png" alt="">
+            <div class="card-text flex space-between">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores saepe est beatae, rerum maiores
+                    ipsam
+                    doloremque odio, ullam possimus, placeat adipisci iusto. Explicabo porro, voluptatibus accusantium
+                    laborum blanditiis ea dolorem. </p>
+                <button onclick="toggleModal()">Continue Reading</button>
+            </div>
+        </section>
+
+        <section class="main-footer flex space-between align-center">
+            <span><img src="./img/arrow-left.jpg"> Previous</span>
+            <span>Next <img src="./img/arrow-right.jpg"></span>
+        </section>
+    </main>
+    <footer class="flex align-center">
+        <div class="footer-logo">Blogin<span>.</span></div>
+        <div>© 2014 Blogin.com - All Rights Reserved - Find more free Templates at Pixelhint.com</div>
+        <div class="icons flex space-between">
+            <i class="fab fa-facebook-f flex align-center"></i>
+            <i class="fab fa-twitter-square flex align-center"></i>
+            <i class="fab fa-behance-square flex align-center"></i>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {            
+            var elScreen = document.querySelector('.screen');
+                document.body.classList.toggle('open-menu');
+        }
+
+        function toggleModal() {
+            var elModal = document.querySelector('.modal');            
+            elModal.classList.toggle('toggle-modal')
+        }
+    </script>
+
+</body>
+
+</html>
