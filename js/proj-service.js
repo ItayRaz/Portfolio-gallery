@@ -11,8 +11,8 @@ console.log(gProjs);
 
 function createProjs() {
     var projs = [
-        createProj('Mine Sweeper', 'Classic Game', 'A classic game developed by me!', '../img/portfolio/mine-sweeper.jpeg', 'September 2019'),
-        createProj('Touch Nums', 'Adictive Game', 'A classic game developed by me!', '../img/portfolio/touch-nums.jpeg', 'September 2019')
+        createProj('Mine Sweeper', 'Classic Game', 'A classic game developed by me!', './img/portfolio/mine-sweeper.jpeg', 'September 2019'),
+        createProj('Touch Nums', 'Adictive Game', 'A classic game developed by me!', './img/portfolio/touch-nums.jpeg', 'September 2019')
     ];
     return projs;
 }
