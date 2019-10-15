@@ -37,9 +37,9 @@ function renderModal(projId) {
                   <li>Client: Threads</li>
                   <li>Category: Illustration</li>
                 </ul>
+                <a href="${proj.url}" target="_blank" class="btn btn-primary" >Check The Project</a>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
-                    Close Project</button>
-                    <a href="${proj.url}" target="_blank" class="btn btn-primary" >Check The Project</a>`
+                    Close Project</button>`
     elModal.innerHTML = modalHTML;
 }

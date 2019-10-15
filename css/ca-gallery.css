@@ -239,6 +239,12 @@ header.masthead .intro-text .intro-heading {
         text-transform: uppercase;
     }
 }
+
+@media (max-width: 470px){
+    .modal-body a {
+        margin-bottom: 10px;
+    }
+}
 .service-heading {
     margin: 15px 0;
     text-transform: none;
@@ -311,6 +317,11 @@ header.masthead .intro-text .intro-heading {
         margin: 0 0 30px;
     }
 }
+
+#portfolioModal1modal {
+    z-index: 100000;
+}
+
 .portfolio-modal .modal-dialog {
     max-width: none;
     height: 100%;
