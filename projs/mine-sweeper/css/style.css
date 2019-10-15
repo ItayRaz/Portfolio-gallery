@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    background-color: lightyellow;
+}
+
+table {
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .cell:hover {
+      background-color: bisque;
+  }
+
+  h2 {
+      display: none;
+  }
+
+  .won {
+      display: none;
+  }
+
+  .dark {
+    opacity: 0;
+    background-color: lightgray;
+    transition: 1s;
+    opacity: 1;   
+  }
+
+  .safe {
+    opacity: 0;
+    background-color: lightskyblue;
+    transition: 1s;
+    opacity: 1;   
+  }
+
+  .safe-btn {
+    background-color: lightskyblue;
+    padding: 10px;
+  }
+
+  .easy-btn {
+    background-color: lightgreen;
+    padding: 10px;
+  }
+
+  .medium-btn {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .expert-btn {
+    background-color: red;
+    padding: 10px;
+  }
+
+  .restart {
+    padding: 7px;
+  }
+
+  .mine {
+    opacity: 0;
+    background-color: red;
+    transition: 1s;
+    opacity: 1;
+  }
+
+  .timer {
+    font-size: 200%;
+    color: dimgray;
+    font-weight: 600
+}

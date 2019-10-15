@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="init()">
+    <h1>Mine Sweeper</h1>
+
+    <button class="restart" onclick="init ()">😊</button>
+    <h3 class="lives"></h3>
+    <div class="timer"></div>
+    <h3 class="best-time"></h3>
+
+    <table border="2" cellpadding="10">
+        <tbody class="board"></tbody>
+    </table>
+
+    <h2>You Lost!</h2>
+    <h2 class="won">You WON!!!</h2>
+    <button class="easy-btn" onclick="easy()">Easy</button>
+    <button class="medium-btn" onclick="medium()">Medium</button>
+    <button class="expert-btn" onclick="expert()">Expert</button>
+    <button class="safe-btn" onclick="showSafeCell ()">Safe Button</button>
+    <div class="safe-count"></div>
+
+    <script src="js/util.js"></script>
+    <script src="js/cell.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
