@@ -312,14 +312,15 @@ header.masthead .intro-text .intro-heading {
 #portfolio * {
     z-index: 2;
 }
+
+.portfolio-modal {
+    z-index: 100000000;
+}
+
 @media (min-width: 767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
-}
-
-#portfolioModal1modal {
-    z-index: 100000;
 }
 
 .portfolio-modal .modal-dialog {
