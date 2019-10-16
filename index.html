@@ -34,7 +34,7 @@
   <!-- Contact -->
   <section id="contact">
     <h4>Contact Me</h4>
-    <form action="https://mail.google.com/mail/?view=cm&fs=1&to=itay.r81@gmail.com&su=SUBJECT&body=BODY">
+    <form action="https://mail.google.com/mail/?view=cm&fs=1&to=itay.r81@gmail.com&su=SUBJECT&body=BODY" method="post" enctype="text/plain">
       <div class="form-group">
         <input type="email" class="form-control" id="exampleFormControlInput1" value="itay.r81@gmail.com" placeholder="Email adress">
       </div>
@@ -44,7 +44,7 @@
       <div class="form-group">
         <textarea class="form-control" placeholder="Email content" id="exampleFormControlTextarea1" rows="10"></textarea>
       </div>
-      <!-- <input type="button" class="btn btn-primary" value="Submit"> -->
+      <input type="submit" class="btn btn-primary" value="Submit">
     </form>
   </section>
     
@@ -184,12 +184,12 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-md-4 flex-align-center">
+        <div class="col-md-12 flex-align-center">
           <a href="http://coding-academy.org" target="_blank">
             <img src="./img/ca-logo.png" alt="">
           </a>
         </div>
-        <div class="col-md-4 flex-align-center">
+        <!-- <div class="col-md-4 flex-align-center">
           <ul class="list-inline social-buttons flex-align-center">
             <li class="list-inline-item">
               <a href="#">
@@ -207,8 +207,8 @@
                 </a>
             </li>
           </ul>
-        </div>
-        <div class="col-md-4 flex-align-center">
+        </div> -->
+        <!-- <div class="col-md-4 flex-align-center">
             <ul class="list-inline quicklinks">
             <li class="list-inline-item">
               <a href="#">More Me</a>
@@ -217,7 +217,7 @@
               <a href="#">Even More</a>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
   </footer>
