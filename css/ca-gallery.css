@@ -292,6 +292,15 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0;
 }
+
+/* .portfolio-img {
+    height: 370px;
+} */
+
+.portfolio-link {
+    object-fit: cover;
+}
+
 #portfolio .portfolio-item .portfolio-caption {
     max-width: 400px;
     margin: 0 auto;

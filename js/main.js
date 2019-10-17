@@ -43,3 +43,9 @@ function renderModal(projId) {
                     Close Project</button>`
     elModal.innerHTML = modalHTML;
 }
+
+function onSubmitMail() {
+  var emailSubject = document.querySelector('.email-subject').value;
+  var emailText = document.querySelector('.email-text').value;
+  window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=itay.r81@gmail.com&su=${emailSubject}&body=${emailText}`;
+}
